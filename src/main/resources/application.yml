@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: dev   # Change this to 'prod', 'test', etc., as needed
+
+  application:
+    name: IOT Management API
+
+logging:
+  level:
+    root: INFO

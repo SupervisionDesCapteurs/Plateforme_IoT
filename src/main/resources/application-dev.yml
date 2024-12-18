@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mongodb://localhost:27017/iot_dev_db
+    username: dev_user
+    password: dev_password
+
+logging:
+  level:
+    root: DEBUG

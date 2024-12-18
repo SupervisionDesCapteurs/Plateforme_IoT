@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: jdbc:mongodb://prod-db-host:27017/iot_prod_db
+    username: prod_user
+    password: prod_password
+
+  security:
+    jwt:
+      secret: prod_jwt_secret_key
+
+logging:
+  level:
+    root: ERROR
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info  # Only expose health and info endpoints in production
