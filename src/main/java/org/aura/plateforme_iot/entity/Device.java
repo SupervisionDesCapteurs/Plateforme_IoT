@@ -16,7 +16,6 @@ import java.util.List;
 public class Device {
     @Id
     private String id;
-    @NotBlank
     private String name;
     private DeviceType deviceType;
     private DeviceStatus deviceStatus;
