@@ -1,6 +1,5 @@
 package org.aura.plateforme_iot.entity;
 
-import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
 import org.aura.plateforme_iot.entity.Enums.DeviceStatus;
 import org.aura.plateforme_iot.entity.Enums.DeviceType;
@@ -22,6 +21,5 @@ public class Device {
     private LocalDateTime lastCommunication;
     @DBRef
     private List<Measure> measureList;
-
 
 }
