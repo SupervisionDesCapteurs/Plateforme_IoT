@@ -26,6 +26,7 @@ public class DeviceController {
      Page<DeviceDto> deviceList = deviceService.listAllDevices(pageable);
      return ResponseEntity.ok(deviceList);
     }
+
     @PostMapping("/admin/devices")
     public ResponseEntity<DeviceDto> createDevice(@RequestBody @Valid DeviceDto deviceDto) {
         DeviceDto deviceSaved = deviceService.addDevice(deviceDto);

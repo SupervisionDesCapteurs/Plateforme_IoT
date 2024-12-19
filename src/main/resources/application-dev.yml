@@ -1,9 +1,23 @@
+# MongoDB Configuration
 spring:
   data:
     mongodb:
-      uri: mongodb://mongodb:27017/iot_dev_db
-      database: iot_dev_db
+        host: mongodb
+        port: 27017
+        database: iot_dev_db
+        auto-index-creation: true
 
+
+
+# Logging Configuration
 logging:
   level:
-    root: DEBUG
+    org.springframework.security: TRACE
+    org.springframework.data.mongodb: DEBUG
+    com.sonify.security: DEBUG
+    com.sonify.config: DEBUG
+
+# Server Configuration
+server:
+  error:
+    include-stacktrace: never
