@@ -17,6 +17,6 @@ public class DeviceDto {
     private DeviceType deviceType;
     private DeviceStatus deviceStatus;
     private LocalDateTime lastCommunication;
-    private List<MeasurementDto> measureList;
+    private List<MeasureDTO> measureList;
 
 }
