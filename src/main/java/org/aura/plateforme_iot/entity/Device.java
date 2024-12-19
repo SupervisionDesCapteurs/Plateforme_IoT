@@ -5,11 +5,13 @@ import lombok.Data;
 import org.aura.plateforme_iot.entity.Enums.DeviceStatus;
 import org.aura.plateforme_iot.entity.Enums.DeviceType;
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.time.LocalDateTime;
+import java.util.List;
 
-@Document("device")
+@Document(collection = "device")
 @Data
 public class Device {
     @Id
@@ -19,6 +21,8 @@ public class Device {
     private DeviceType deviceType;
     private DeviceStatus deviceStatus;
     private LocalDateTime lastCommunication;
+    @DBRef
+    private List<Measure> measureList;
 
 
 }
