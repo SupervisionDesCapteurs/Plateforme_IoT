@@ -1,4 +1,4 @@
-package org.aura.plateforme_iot.entity.enums;
+package org.aura.plateforme_iot.entity.Enums;
 
 public enum Severity {
     NORMAL,

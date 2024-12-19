@@ -1,11 +1,10 @@
 package org.aura.plateforme_iot.entity;
 
 import lombok.Data;
-import org.aura.plateforme_iot.entity.enums.Severity;
+import org.aura.plateforme_iot.entity.Enums.Severity;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 @Document(collation = "alerts")

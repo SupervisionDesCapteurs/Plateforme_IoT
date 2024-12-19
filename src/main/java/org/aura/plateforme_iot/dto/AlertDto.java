@@ -4,7 +4,7 @@ import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import lombok.Builder;
 import lombok.Data;
-import org.aura.plateforme_iot.entity.enums.Severity;
+import org.aura.plateforme_iot.entity.Enums.Severity;
 
 import java.time.LocalDateTime;
 
