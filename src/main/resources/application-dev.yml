@@ -1,7 +1,7 @@
 spring:
   data:
     mongodb:
-      uri: mongodb://mongodb:27017/iot_dev_db
+      uri: ${MONGO_URI}
       database: iot_dev_db
 
 logging:
