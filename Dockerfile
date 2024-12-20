@@ -1,5 +1,11 @@
-FROM openjdk:17-jdk-slim
-VOLUME /tmp
-ARG JAR_FILE=target/Plateforme_IoT-0.0.1-SNAPSHOT.jar
-COPY ${JAR_FILE} app.jar
-ENTRYPOINT ["java","-jar","/app.jar"]
+FROM eclipse-temurin:17-jdk
+
+WORKDIR /app
+
+COPY target/*.jar app.jar
+
+RUN chmod +x app.jar
+
+EXPOSE 8080
+
+ENTRYPOINT ["java", "-jar", "app.jar"]

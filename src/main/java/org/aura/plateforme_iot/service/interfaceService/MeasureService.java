@@ -10,8 +10,8 @@ import java.util.List;
 
 public interface MeasureService {
     List<MeasureDTO> getAllMeasures();
-    MeasureDTO saveMeasure(MeasureDTO measure);
-    void exportMeasures(HttpServletResponse response);
+    MeasureDTO saveMeasure(MeasureDTO measureDTO);
+    String exportMeasures();
     Page<MeasureDTO> getMeasuresByDevice(String deviceId, Pageable pageable);
 
 }

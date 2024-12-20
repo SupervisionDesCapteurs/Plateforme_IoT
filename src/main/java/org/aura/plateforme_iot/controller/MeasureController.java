@@ -6,7 +6,9 @@ import org.aura.plateforme_iot.dto.MeasureDTO;
 import org.aura.plateforme_iot.service.interfaceService.MeasureService;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -31,9 +33,14 @@ public class MeasureController {
     }
 
     @GetMapping("/export")
-    public void exportMeasures(HttpServletResponse response) {
-        measureService.exportMeasures(response);
+    public ResponseEntity<String> exportMeasures() {
+        String csvContent = measureService.exportMeasures();
+        return ResponseEntity.ok()
+                .header(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=measures.csv")
+                .contentType(MediaType.TEXT_PLAIN)
+                .body(csvContent);
     }
+
 
     @GetMapping("/by-device/{deviceId}")
     public ResponseEntity<Page<MeasureDTO>> getMeasuresByDevice(
