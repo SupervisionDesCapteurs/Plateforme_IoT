@@ -45,7 +45,6 @@ class AuthControllerSecurityTest {
 
     @Test
     void testLogin_Success() {
-        // Arrange
         LoginRequest loginRequest = new LoginRequest();
         loginRequest.setUsername("testUser");
         loginRequest.setPassword("testPass");
@@ -53,7 +52,7 @@ class AuthControllerSecurityTest {
         CustomUserDetails userDetails = new CustomUserDetails(
                 "testUser",
                 "testPass",
-                true, // Active account
+                true,
                 Collections.singletonList(new SimpleGrantedAuthority("ROLE_USER"))
         );
 
@@ -62,10 +61,8 @@ class AuthControllerSecurityTest {
         when(authenticationManager.authenticate(any(UsernamePasswordAuthenticationToken.class))).thenReturn(authentication);
         when(jwtTokenProvider.generateToken("testUser")).thenReturn("mockedToken");
 
-        // Act
         ResponseEntity<AuthResponse> response = authController.login(loginRequest);
 
-        // Assert
         assertEquals(200, response.getStatusCodeValue());
         assertEquals("mockedToken", response.getBody().getToken());
         assertEquals("testUser", response.getBody().getUsername());

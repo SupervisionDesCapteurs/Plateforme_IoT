@@ -32,15 +32,12 @@ public class AuthController {
 
 
         log.info("User: {} Pass: {}", request.getUsername(), request.getPassword());
-//        System.out.println(request.getUsername() + " " + request.getPassword());
         Authentication authentication = authenticationManager.authenticate(
                 new UsernamePasswordAuthenticationToken(request.getUsername(), request.getPassword()));
 
         CustomUserDetails userDetails = (CustomUserDetails) authentication.getPrincipal();
         String token = jwtTokenProvider.generateToken(userDetails.getUsername());
-//
         return ResponseEntity.ok(new AuthResponse(token, userDetails.getUsername(), userDetails.getAuthorities()));
-//        return ResponseEntity.ok(null);
     }
 
 
