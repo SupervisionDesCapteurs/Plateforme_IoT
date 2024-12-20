@@ -8,6 +8,7 @@ import java.time.LocalDateTime;
 @Data
 @Builder
 public class MeasureDTO {
+    private String id;
     private LocalDateTime timestamp;
     private Double value;
     private String deviceId;
