@@ -2,10 +2,14 @@ package org.aura.plateforme_iot.service.ServiceImplementation;
 
 import lombok.RequiredArgsConstructor;
 import org.aura.plateforme_iot.Mapper.AlertMapper;
+import org.aura.plateforme_iot.Mapper.DeviceMapper;
 import org.aura.plateforme_iot.dto.AlertDto;
+import org.aura.plateforme_iot.dto.DeviceDto;
 import org.aura.plateforme_iot.entity.Alert;
+import org.aura.plateforme_iot.entity.Device;
 import org.aura.plateforme_iot.entity.Enums.Severity;
 import org.aura.plateforme_iot.repository.AlertRepository;
+import org.aura.plateforme_iot.repository.DeviceRepository;
 import org.aura.plateforme_iot.service.interfaceService.AlertService;
 import org.springframework.stereotype.Service;
 
@@ -15,7 +19,10 @@ import java.util.List;
 @RequiredArgsConstructor
 public class AlertImpl implements AlertService {
     private final AlertRepository alertRepository;
+
+    private final DeviceRepository deviceRepository;
     private final AlertMapper alertMapper;
+    private final DeviceMapper deviceMapper;
 
 
     @Override
@@ -28,14 +35,19 @@ public class AlertImpl implements AlertService {
 
     @Override
     public AlertDto createAlert(AlertDto alertDto) {
+        Device device = deviceRepository.findById(alertDto.getDeviceId()).orElseThrow(() -> new RuntimeException("Device not found"));
 
-        String message = generateAlertMessage(alertDto.getDeviceDto().getDeviceType().name(), alertDto.getSeverity());
+        String message = generateAlertMessage(device.getDeviceType().name(), alertDto.getSeverity());
 
         alertDto.setMessage(message);
 
         Alert alert = alertMapper.toAlert(alertDto);
+        alert.setDevice(device);  // Manually set the device
+
+        // Save the alert
         Alert savedAlert = alertRepository.save(alert);
 
+        // Map the saved alert to AlertDto and return
         return alertMapper.toAlertDto(savedAlert);
     }
 

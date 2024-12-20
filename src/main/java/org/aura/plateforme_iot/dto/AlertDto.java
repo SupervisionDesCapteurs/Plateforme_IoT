@@ -22,7 +22,9 @@ public class AlertDto {
     @NotNull(message = "Le timestamp de l'alerte est requis.")
     private LocalDateTime dateTime;
 
-    @NotNull(message = "Les informations du device sont requises.")
+    @NotNull(message = "L'ID du device est requis.")
+    private String deviceId;
+
     private DeviceDto deviceDto;
 
 }
