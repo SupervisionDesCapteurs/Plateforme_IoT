@@ -1,57 +1,51 @@
 version: '3.8'
 
 services:
-  app:
-    build: .
-    container_name: iot-management-api
-    ports:
-      - "8080:8080"
-    environment:
-      - SPRING_DATA_MONGODB_HOST=mongodb
-      - SPRING_DATA_MONGODB_PORT=27017
-      - SPRING_DATA_MONGODB_DATABASE=iot_dev_db
-    depends_on:
-      mongodb:
-        condition: service_healthy
-    networks:
-      - app-network
-
   mongodb:
     image: mongo:6.0
     container_name: mongodb
     ports:
       - "27017:27017"
-    healthcheck:
-      test: echo 'db.runCommand("ping").ok' | mongosh localhost:27017/test --quiet
-      interval: 5s
-      timeout: 5s
-      retries: 3
-      start_period: 15s
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: password
+    volumes:
+      - mongodb-data:/data/db
+    networks:
+      - springboot-mongo-network
 
   mongo-express:
-    image: mongo-express:latest
+    image: mongo-express:1.0.0
     container_name: mongo-express
-    restart: always
     ports:
       - "8081:8081"
     environment:
+      ME_CONFIG_MONGODB_ADMINUSERNAME: admin
+      ME_CONFIG_MONGODB_ADMINPASSWORD: password
       ME_CONFIG_MONGODB_SERVER: mongodb
-      ME_CONFIG_MONGODB_PORT: 27017
-      ME_CONFIG_MONGODB_ENABLE_ADMIN: "true"
-      ME_CONFIG_BASICAUTH_USERNAME: admin
-      ME_CONFIG_BASICAUTH_PASSWORD: password
     depends_on:
-      mongodb:
-        condition: service_healthy
+      - mongodb
     networks:
-      - app-network
+      - springboot-mongo-network
 
-networks:
-  app-network:
-    driver: bridge
+  app:
+    image: plateforme-iot:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: springboot-app
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_DATA_MONGODB_URI: mongodb://admin:password@mongodb:27017/plateforme_iot?authSource=admin
+    depends_on:
+      - mongodb
+    networks:
+      - springboot-mongo-network
 
 volumes:
-  mongodb_data:
-  sonarqube_data:
-  sonarqube_extensions:
-  sonarqube_logs:
+  mongodb-data:
+
+networks:
+  springboot-mongo-network:
+    driver: bridge
