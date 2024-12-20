@@ -22,7 +22,6 @@ public interface AlertMapper {
     @Mapping(source = "deviceDto", target = "device")
     Alert toAlert(AlertDto alertDto);
 
-    // Custom mapping for Device to DeviceDto using builder
     default DeviceResponseDto mapDeviceToDeviceDto(Device device) {
         if (device == null) {
             return null;

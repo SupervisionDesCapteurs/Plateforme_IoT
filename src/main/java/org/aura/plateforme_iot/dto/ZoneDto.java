@@ -20,5 +20,6 @@ public class ZoneDto {
     @NotBlank(message = "La localisation de la zone est requise.")
     private String location;
 
-    private List<DeviceDto> devices;
+    // Only device IDs will be submitted during creation
+    private List<String> deviceIds;
 }

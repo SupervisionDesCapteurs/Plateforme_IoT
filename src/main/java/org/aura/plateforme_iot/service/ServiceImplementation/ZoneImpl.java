@@ -1,6 +1,7 @@
 package org.aura.plateforme_iot.service.ServiceImplementation;
 
 import lombok.RequiredArgsConstructor;
+import lombok.extern.log4j.Log4j2;
 import org.aura.plateforme_iot.Mapper.ZoneMapper;
 import org.aura.plateforme_iot.dto.ZoneDto;
 import org.aura.plateforme_iot.entity.Zone;
@@ -12,6 +13,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
+@Log4j2
 @RequiredArgsConstructor
 public class ZoneImpl implements ZoneService {
 
@@ -21,6 +23,7 @@ public class ZoneImpl implements ZoneService {
     @Override
     public List<ZoneDto> getAllZones() {
         List<Zone> zones = zoneRepository.findAll();
+        zones.forEach(zone -> log.info("Fetched Zone: {}", zone));
         return zones.stream()
                 .map(zoneMapper::toZoneDto)
                 .toList();
