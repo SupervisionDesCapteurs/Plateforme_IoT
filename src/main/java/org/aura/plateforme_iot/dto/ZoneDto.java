@@ -10,7 +10,7 @@ import java.util.List;
 @Builder
 public class ZoneDto {
 
-    private int id;
+    private String id;
     @NotBlank(message = "Le nom de la zone ne peut pas être vide.")
     private String nom;
 

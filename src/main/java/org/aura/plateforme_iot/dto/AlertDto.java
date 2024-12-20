@@ -12,15 +12,17 @@ import java.time.LocalDateTime;
 @Builder
 public class AlertDto {
 
-    private int id;
+    private String id;
 
     @NotNull(message = "La sévérité de l'alerte est requise.")
     private Severity severity;
 
-    @NotBlank(message = "Le message de l'alerte ne peut pas être vide.")
-    private String message;
+    private String message;  // No validation needed, set dynamically
 
     @NotNull(message = "Le timestamp de l'alerte est requis.")
     private LocalDateTime dateTime;
+
+    @NotNull(message = "Les informations du device sont requises.")
+    private DeviceDto deviceDto;
 
 }
