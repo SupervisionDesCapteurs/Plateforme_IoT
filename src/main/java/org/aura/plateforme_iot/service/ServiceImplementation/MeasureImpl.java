@@ -1,6 +1,5 @@
 package org.aura.plateforme_iot.service.ServiceImplementation;
 
-import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 import org.aura.plateforme_iot.Mapper.MeasureMapper;
 import org.aura.plateforme_iot.dto.DeviceDto;
@@ -15,8 +14,6 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.io.PrintWriter;
-import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 @Service
