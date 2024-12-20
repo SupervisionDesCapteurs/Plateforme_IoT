@@ -22,5 +22,4 @@ public class Device {
     @DBRef
     private List<Measure> measureList;
 
-
 }

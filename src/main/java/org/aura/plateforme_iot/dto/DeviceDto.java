@@ -12,11 +12,12 @@ import java.util.List;
 @Data
 @Builder
 public class DeviceDto {
+    private String id;
     @NotBlank
     private String name;
     private DeviceType deviceType;
     private DeviceStatus deviceStatus;
     private LocalDateTime lastCommunication;
-    private List<MeasurementDto> measureList;
+    private List<MeasureDTO> measureList;
 
 }
