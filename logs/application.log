@@ -9807,3 +9807,710 @@ java.lang.Throwable: Runtime.exit(130)
 2024-12-20 12:47:55 DEBUG org.mongodb.driver.connection - Connection checked in: address=127.0.0.1:27017, driver-generated ID=3
 2024-12-20 12:47:55 DEBUG org.mongodb.driver.connection - Connection closed: address=127.0.0.1:27017, driver-generated ID=3. Reason: Connection pool was closed.
 2024-12-20 12:47:55 DEBUG org.mongodb.driver.connection - Connection pool closed for 127.0.0.1:27017
+2024-12-20 17:28:39 DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2024-12-20 17:28:39 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-20 17:28:39 DEBUG o.h.v.i.x.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2024-12-20 17:28:39 DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2024-12-20 17:28:39 DEBUG o.h.v.i.x.c.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2024-12-20 17:28:39 DEBUG o.h.v.i.x.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2024-12-20 17:28:39 DEBUG o.h.v.i.e.r.TraversableResolvers - Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2024-12-20 17:28:39 INFO  o.a.p.PlateformeIoTApplication - Starting PlateformeIoTApplication using Java 22.0.2 with PID 3956 (C:\Users\YouCode\Desktop\Plateforme_IoT\target\classes started by YouCode in C:\Users\YouCode\Desktop\Plateforme_IoT)
+2024-12-20 17:28:39 DEBUG o.a.p.PlateformeIoTApplication - Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-20 17:28:39 INFO  o.a.p.PlateformeIoTApplication - The following 1 profile is active: "dev"
+2024-12-20 17:28:39 DEBUG o.s.boot.SpringApplication - Loading source class org.aura.plateforme_iot.PlateformeIoTApplication
+2024-12-20 17:28:39 DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2024-12-20 17:28:39 DEBUG o.s.b.d.restart.ChangeableUrls - Matching URLs for reloading : [file:/C:/Users/YouCode/Desktop/Plateforme_IoT/target/classes/]
+2024-12-20 17:28:39 DEBUG o.s.b.d.settings.DevToolsSettings - Included patterns for restart : []
+2024-12-20 17:28:39 DEBUG o.s.b.d.settings.DevToolsSettings - Excluded patterns for restart : [/spring-boot-starter-[\w-]+/, /spring-boot/(bin|build|out)/, /spring-boot-starter/(bin|build|out)/, /spring-boot-devtools/(bin|build|out)/, /spring-boot-actuator/(bin|build|out)/, /spring-boot-autoconfigure/(bin|build|out)/]
+2024-12-20 17:28:39 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-20 17:28:39 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-20 17:28:39 INFO  o.s.b.d.c.l.DockerComposeLifecycleManager - Using Docker Compose file C:\Users\YouCode\Desktop\Plateforme_IoT\docker-compose.yaml
+2024-12-20 17:28:39 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 82
+2024-12-20 17:28:39 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:39 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:39 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:39 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:39 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:39 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:39 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:39 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:39 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 84
+2024-12-20 17:28:39 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:39 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:39 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "javax.management.ObjectName", codebase = ""
+2024-12-20 17:28:39 DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.1.24  4, name=org.springframework.boot:type=Admin,name=SpringApplication, attribute=Ready
+2024-12-20 17:28:39 DEBUG sun.rmi.server.call - RMI TCP Connection(1)-192.168.1.24: [192.168.1.24] exception: 
+javax.management.InstanceNotFoundException: org.springframework.boot:type=Admin,name=SpringApplication
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getMBean(DefaultMBeanServerInterceptor.java:1073)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getAttribute(DefaultMBeanServerInterceptor.java:632)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.getAttribute(JmxMBeanServer.java:679)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1449)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.getAttribute(RMIConnectionImpl.java:639)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:598)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:844)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:721)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:720)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-12-20 17:28:39 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:39 DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@1bcb3e27: connectionId=rmi://192.168.1.24  4] closing.
+2024-12-20 17:28:39 DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@1bcb3e27: connectionId=rmi://192.168.1.24  4] closed.
+2024-12-20 17:28:39 DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2024-12-20 17:28:39 DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2024-12-20 17:28:39 DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2024-12-20 17:28:39 DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2024-12-20 17:28:39 DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2024-12-20 17:28:39 DEBUG o.h.v.i.e.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2024-12-20 17:28:39 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 82
+2024-12-20 17:28:39 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:39 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "javax.management.ObjectName", codebase = ""
+2024-12-20 17:28:39 DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.1.24  1, name=java.lang:type=OperatingSystem, attribute=ProcessCpuLoad
+2024-12-20 17:28:39 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:39 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "javax.management.ObjectName", codebase = ""
+2024-12-20 17:28:39 DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.1.24  1, name=java.lang:type=Memory, attribute=HeapMemoryUsage
+2024-12-20 17:28:39 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:39 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "javax.management.ObjectName", codebase = ""
+2024-12-20 17:28:39 DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.1.24  1, name=java.lang:type=Memory, attribute=HeapMemoryUsage
+2024-12-20 17:28:39 DEBUG java.lang.ProcessBuilder - ProcessBuilder.start(): pid: 62248, dir: null, cmd: "docker"
+java.lang.RuntimeException: ProcessBuilder.start() debug
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1147)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at org.springframework.boot.docker.compose.core.ProcessRunner.startProcess(ProcessRunner.java:106)
+	at org.springframework.boot.docker.compose.core.ProcessRunner.run(ProcessRunner.java:88)
+	at org.springframework.boot.docker.compose.core.ProcessRunner.run(ProcessRunner.java:75)
+	at org.springframework.boot.docker.compose.core.DockerCli$DockerCommands.getDockerCommand(DockerCli.java:142)
+	at org.springframework.boot.docker.compose.core.DockerCli$DockerCommands.<init>(DockerCli.java:136)
+	at org.springframework.boot.docker.compose.core.DockerCli.lambda$new$0(DockerCli.java:63)
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1228)
+	at org.springframework.boot.docker.compose.core.DockerCli.<init>(DockerCli.java:62)
+	at org.springframework.boot.docker.compose.core.DockerCompose.get(DockerCompose.java:145)
+	at org.springframework.boot.docker.compose.lifecycle.DockerComposeLifecycleManager.getDockerCompose(DockerComposeLifecycleManager.java:166)
+	at org.springframework.boot.docker.compose.lifecycle.DockerComposeLifecycleManager.start(DockerComposeLifecycleManager.java:114)
+	at org.springframework.boot.docker.compose.lifecycle.DockerComposeListener.onApplicationEvent(DockerComposeListener.java:53)
+	at org.springframework.boot.docker.compose.lifecycle.DockerComposeListener.onApplicationEvent(DockerComposeListener.java:35)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:156)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:138)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.contextLoaded(EventPublishingRunListener.java:98)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$contextLoaded$4(SpringApplicationRunListeners.java:72)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.contextLoaded(SpringApplicationRunListeners.java:72)
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:416)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at org.aura.plateforme_iot.PlateformeIoTApplication.main(PlateformeIoTApplication.java:10)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+2024-12-20 17:28:39 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 82
+2024-12-20 17:28:39 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:39 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:39 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:39 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:39 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:39 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:39 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:39 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:39 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 84
+2024-12-20 17:28:39 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:39 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:39 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "javax.management.ObjectName", codebase = ""
+2024-12-20 17:28:39 DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.1.24  5, name=org.springframework.boot:type=Admin,name=SpringApplication, attribute=Ready
+2024-12-20 17:28:39 DEBUG sun.rmi.server.call - RMI TCP Connection(1)-192.168.1.24: [192.168.1.24] exception: 
+javax.management.InstanceNotFoundException: org.springframework.boot:type=Admin,name=SpringApplication
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getMBean(DefaultMBeanServerInterceptor.java:1073)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getAttribute(DefaultMBeanServerInterceptor.java:632)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.getAttribute(JmxMBeanServer.java:679)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1449)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.getAttribute(RMIConnectionImpl.java:639)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:598)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:844)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:721)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:720)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-12-20 17:28:39 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:39 DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@6e4b7ac: connectionId=rmi://192.168.1.24  5] closing.
+2024-12-20 17:28:39 DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@6e4b7ac: connectionId=rmi://192.168.1.24  5] closed.
+2024-12-20 17:28:40 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 82
+2024-12-20 17:28:40 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:40 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:40 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:40 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:40 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:40 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:40 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:40 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:40 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 84
+2024-12-20 17:28:40 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:40 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:40 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "javax.management.ObjectName", codebase = ""
+2024-12-20 17:28:40 DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.1.24  6, name=org.springframework.boot:type=Admin,name=SpringApplication, attribute=Ready
+2024-12-20 17:28:40 DEBUG sun.rmi.server.call - RMI TCP Connection(1)-192.168.1.24: [192.168.1.24] exception: 
+javax.management.InstanceNotFoundException: org.springframework.boot:type=Admin,name=SpringApplication
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getMBean(DefaultMBeanServerInterceptor.java:1073)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getAttribute(DefaultMBeanServerInterceptor.java:632)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.getAttribute(JmxMBeanServer.java:679)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1449)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.getAttribute(RMIConnectionImpl.java:639)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:598)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:844)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:721)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:720)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-12-20 17:28:40 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:40 DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@68a35b31: connectionId=rmi://192.168.1.24  6] closing.
+2024-12-20 17:28:40 DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@68a35b31: connectionId=rmi://192.168.1.24  6] closed.
+2024-12-20 17:28:40 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 82
+2024-12-20 17:28:40 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:40 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "javax.management.ObjectName", codebase = ""
+2024-12-20 17:28:40 DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.1.24  1, name=java.lang:type=OperatingSystem, attribute=ProcessCpuLoad
+2024-12-20 17:28:40 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:40 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "javax.management.ObjectName", codebase = ""
+2024-12-20 17:28:40 DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.1.24  1, name=java.lang:type=Memory, attribute=HeapMemoryUsage
+2024-12-20 17:28:40 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:40 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "javax.management.ObjectName", codebase = ""
+2024-12-20 17:28:40 DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.1.24  1, name=java.lang:type=Memory, attribute=HeapMemoryUsage
+2024-12-20 17:28:41 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 82
+2024-12-20 17:28:41 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:41 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:41 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:41 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:41 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:41 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:41 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:41 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:41 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 84
+2024-12-20 17:28:41 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:41 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:41 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "javax.management.ObjectName", codebase = ""
+2024-12-20 17:28:41 DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.1.24  7, name=org.springframework.boot:type=Admin,name=SpringApplication, attribute=Ready
+2024-12-20 17:28:41 DEBUG sun.rmi.server.call - RMI TCP Connection(1)-192.168.1.24: [192.168.1.24] exception: 
+javax.management.InstanceNotFoundException: org.springframework.boot:type=Admin,name=SpringApplication
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getMBean(DefaultMBeanServerInterceptor.java:1073)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getAttribute(DefaultMBeanServerInterceptor.java:632)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.getAttribute(JmxMBeanServer.java:679)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1449)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.getAttribute(RMIConnectionImpl.java:639)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:598)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:844)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:721)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:720)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-12-20 17:28:41 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:41 DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@7f74a8f0: connectionId=rmi://192.168.1.24  7] closing.
+2024-12-20 17:28:41 DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@7f74a8f0: connectionId=rmi://192.168.1.24  7] closed.
+2024-12-20 17:28:41 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 82
+2024-12-20 17:28:41 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:41 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:41 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:41 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:41 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:41 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:41 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:41 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:41 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 84
+2024-12-20 17:28:41 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:41 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:41 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "javax.management.ObjectName", codebase = ""
+2024-12-20 17:28:41 DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.1.24  8, name=org.springframework.boot:type=Admin,name=SpringApplication, attribute=Ready
+2024-12-20 17:28:41 DEBUG sun.rmi.server.call - RMI TCP Connection(1)-192.168.1.24: [192.168.1.24] exception: 
+javax.management.InstanceNotFoundException: org.springframework.boot:type=Admin,name=SpringApplication
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getMBean(DefaultMBeanServerInterceptor.java:1073)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getAttribute(DefaultMBeanServerInterceptor.java:632)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.getAttribute(JmxMBeanServer.java:679)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1449)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.getAttribute(RMIConnectionImpl.java:639)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:598)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:844)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:721)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:720)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-12-20 17:28:41 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:41 DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@5e413b6b: connectionId=rmi://192.168.1.24  8] closing.
+2024-12-20 17:28:41 DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@5e413b6b: connectionId=rmi://192.168.1.24  8] closed.
+2024-12-20 17:28:41 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 82
+2024-12-20 17:28:41 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:41 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "javax.management.ObjectName", codebase = ""
+2024-12-20 17:28:41 DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.1.24  1, name=java.lang:type=OperatingSystem, attribute=ProcessCpuLoad
+2024-12-20 17:28:41 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 82
+2024-12-20 17:28:41 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:41 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "javax.management.ObjectName", codebase = ""
+2024-12-20 17:28:41 DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.1.24  1, name=java.lang:type=Memory, attribute=HeapMemoryUsage
+2024-12-20 17:28:41 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:41 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "javax.management.ObjectName", codebase = ""
+2024-12-20 17:28:41 DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.1.24  1, name=java.lang:type=Memory, attribute=HeapMemoryUsage
+2024-12-20 17:28:42 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 82
+2024-12-20 17:28:42 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:42 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:42 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:42 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:42 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:42 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:42 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:42 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:42 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 84
+2024-12-20 17:28:42 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:42 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:42 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "javax.management.ObjectName", codebase = ""
+2024-12-20 17:28:42 DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.1.24  9, name=org.springframework.boot:type=Admin,name=SpringApplication, attribute=Ready
+2024-12-20 17:28:42 DEBUG sun.rmi.server.call - RMI TCP Connection(1)-192.168.1.24: [192.168.1.24] exception: 
+javax.management.InstanceNotFoundException: org.springframework.boot:type=Admin,name=SpringApplication
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getMBean(DefaultMBeanServerInterceptor.java:1073)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getAttribute(DefaultMBeanServerInterceptor.java:632)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.getAttribute(JmxMBeanServer.java:679)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1449)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.getAttribute(RMIConnectionImpl.java:639)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:598)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:844)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:721)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:720)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-12-20 17:28:42 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:42 DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@62a8a969: connectionId=rmi://192.168.1.24  9] closing.
+2024-12-20 17:28:42 DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@62a8a969: connectionId=rmi://192.168.1.24  9] closed.
+2024-12-20 17:28:42 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 82
+2024-12-20 17:28:42 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:42 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:42 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:42 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:42 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:42 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:42 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:42 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:42 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 84
+2024-12-20 17:28:42 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:42 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:42 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "javax.management.ObjectName", codebase = ""
+2024-12-20 17:28:42 DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.1.24  10, name=org.springframework.boot:type=Admin,name=SpringApplication, attribute=Ready
+2024-12-20 17:28:42 DEBUG sun.rmi.server.call - RMI TCP Connection(1)-192.168.1.24: [192.168.1.24] exception: 
+javax.management.InstanceNotFoundException: org.springframework.boot:type=Admin,name=SpringApplication
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getMBean(DefaultMBeanServerInterceptor.java:1073)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getAttribute(DefaultMBeanServerInterceptor.java:632)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.getAttribute(JmxMBeanServer.java:679)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1449)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.getAttribute(RMIConnectionImpl.java:639)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:598)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:844)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:721)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:720)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-12-20 17:28:42 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:42 DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@6447019a: connectionId=rmi://192.168.1.24  10] closing.
+2024-12-20 17:28:42 DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@6447019a: connectionId=rmi://192.168.1.24  10] closed.
+2024-12-20 17:28:42 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 82
+2024-12-20 17:28:42 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:42 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "javax.management.ObjectName", codebase = ""
+2024-12-20 17:28:42 DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.1.24  1, name=java.lang:type=OperatingSystem, attribute=ProcessCpuLoad
+2024-12-20 17:28:43 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:43 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "javax.management.ObjectName", codebase = ""
+2024-12-20 17:28:43 DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.1.24  1, name=java.lang:type=Memory, attribute=HeapMemoryUsage
+2024-12-20 17:28:43 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:43 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "javax.management.ObjectName", codebase = ""
+2024-12-20 17:28:43 DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.1.24  1, name=java.lang:type=Memory, attribute=HeapMemoryUsage
+2024-12-20 17:28:43 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 82
+2024-12-20 17:28:43 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:43 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:43 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:43 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:43 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:43 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:43 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:43 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:43 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 84
+2024-12-20 17:28:43 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:43 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:43 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "javax.management.ObjectName", codebase = ""
+2024-12-20 17:28:43 DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.1.24  11, name=org.springframework.boot:type=Admin,name=SpringApplication, attribute=Ready
+2024-12-20 17:28:43 DEBUG sun.rmi.server.call - RMI TCP Connection(1)-192.168.1.24: [192.168.1.24] exception: 
+javax.management.InstanceNotFoundException: org.springframework.boot:type=Admin,name=SpringApplication
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getMBean(DefaultMBeanServerInterceptor.java:1073)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getAttribute(DefaultMBeanServerInterceptor.java:632)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.getAttribute(JmxMBeanServer.java:679)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1449)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.getAttribute(RMIConnectionImpl.java:639)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:598)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:844)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:721)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:720)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-12-20 17:28:43 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:43 DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@1b98b6f4: connectionId=rmi://192.168.1.24  11] closing.
+2024-12-20 17:28:43 DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@1b98b6f4: connectionId=rmi://192.168.1.24  11] closed.
+2024-12-20 17:28:43 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 82
+2024-12-20 17:28:43 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:43 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:43 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:43 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:43 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:43 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:43 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:43 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:43 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 84
+2024-12-20 17:28:43 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:43 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:43 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "javax.management.ObjectName", codebase = ""
+2024-12-20 17:28:43 DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.1.24  12, name=org.springframework.boot:type=Admin,name=SpringApplication, attribute=Ready
+2024-12-20 17:28:43 DEBUG sun.rmi.server.call - RMI TCP Connection(1)-192.168.1.24: [192.168.1.24] exception: 
+javax.management.InstanceNotFoundException: org.springframework.boot:type=Admin,name=SpringApplication
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getMBean(DefaultMBeanServerInterceptor.java:1073)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getAttribute(DefaultMBeanServerInterceptor.java:632)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.getAttribute(JmxMBeanServer.java:679)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1449)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.getAttribute(RMIConnectionImpl.java:639)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:598)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:844)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:721)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:720)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-12-20 17:28:43 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:43 DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@30c38569: connectionId=rmi://192.168.1.24  12] closing.
+2024-12-20 17:28:43 DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@30c38569: connectionId=rmi://192.168.1.24  12] closed.
+2024-12-20 17:28:44 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 82
+2024-12-20 17:28:44 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:44 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "javax.management.ObjectName", codebase = ""
+2024-12-20 17:28:44 DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.1.24  1, name=java.lang:type=OperatingSystem, attribute=ProcessCpuLoad
+2024-12-20 17:28:44 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(2)-192.168.1.24: (port 54127) op = 82
+2024-12-20 17:28:44 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(2)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:44 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(2)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:44 DEBUG sun.rmi.loader - RMI TCP Connection(2)-192.168.1.24: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:44 DEBUG sun.rmi.loader - RMI TCP Connection(2)-192.168.1.24: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:44 DEBUG sun.rmi.loader - RMI TCP Connection(2)-192.168.1.24: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:44 DEBUG sun.rmi.loader - RMI TCP Connection(2)-192.168.1.24: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:44 DEBUG sun.rmi.loader - RMI TCP Connection(2)-192.168.1.24: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:44 DEBUG sun.rmi.loader - RMI TCP Connection(2)-192.168.1.24: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:44 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(2)-192.168.1.24: (port 54127) op = 84
+2024-12-20 17:28:44 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(2)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:44 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(2)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:44 DEBUG sun.rmi.loader - RMI TCP Connection(2)-192.168.1.24: name = "javax.management.ObjectName", codebase = ""
+2024-12-20 17:28:44 DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.1.24  13, name=org.springframework.boot:type=Admin,name=SpringApplication, attribute=Ready
+2024-12-20 17:28:44 DEBUG sun.rmi.server.call - RMI TCP Connection(2)-192.168.1.24: [192.168.1.24] exception: 
+javax.management.InstanceNotFoundException: org.springframework.boot:type=Admin,name=SpringApplication
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getMBean(DefaultMBeanServerInterceptor.java:1073)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getAttribute(DefaultMBeanServerInterceptor.java:632)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.getAttribute(JmxMBeanServer.java:679)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1449)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.getAttribute(RMIConnectionImpl.java:639)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:598)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:844)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:721)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:720)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-12-20 17:28:44 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(2)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:44 DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@7c01540: connectionId=rmi://192.168.1.24  13] closing.
+2024-12-20 17:28:44 DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@7c01540: connectionId=rmi://192.168.1.24  13] closed.
+2024-12-20 17:28:44 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:44 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "javax.management.ObjectName", codebase = ""
+2024-12-20 17:28:44 DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.1.24  1, name=java.lang:type=Memory, attribute=HeapMemoryUsage
+2024-12-20 17:28:44 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:44 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "javax.management.ObjectName", codebase = ""
+2024-12-20 17:28:44 DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.1.24  1, name=java.lang:type=Memory, attribute=HeapMemoryUsage
+2024-12-20 17:28:44 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 82
+2024-12-20 17:28:44 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:44 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:44 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:44 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:44 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:44 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:44 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:44 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:44 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 84
+2024-12-20 17:28:44 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:44 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:44 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "javax.management.ObjectName", codebase = ""
+2024-12-20 17:28:44 DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.1.24  14, name=org.springframework.boot:type=Admin,name=SpringApplication, attribute=Ready
+2024-12-20 17:28:44 DEBUG sun.rmi.server.call - RMI TCP Connection(1)-192.168.1.24: [192.168.1.24] exception: 
+javax.management.InstanceNotFoundException: org.springframework.boot:type=Admin,name=SpringApplication
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getMBean(DefaultMBeanServerInterceptor.java:1073)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getAttribute(DefaultMBeanServerInterceptor.java:632)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.getAttribute(JmxMBeanServer.java:679)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1449)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.getAttribute(RMIConnectionImpl.java:639)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:598)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:844)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:721)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:720)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-12-20 17:28:44 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:44 DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@7c70d854: connectionId=rmi://192.168.1.24  14] closing.
+2024-12-20 17:28:44 DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@7c70d854: connectionId=rmi://192.168.1.24  14] closed.
+2024-12-20 17:28:45 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 82
+2024-12-20 17:28:45 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:45 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:45 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:45 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:45 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:45 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:45 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:45 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:45 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 84
+2024-12-20 17:28:45 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:45 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:45 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "javax.management.ObjectName", codebase = ""
+2024-12-20 17:28:45 DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.1.24  15, name=org.springframework.boot:type=Admin,name=SpringApplication, attribute=Ready
+2024-12-20 17:28:45 DEBUG sun.rmi.server.call - RMI TCP Connection(1)-192.168.1.24: [192.168.1.24] exception: 
+javax.management.InstanceNotFoundException: org.springframework.boot:type=Admin,name=SpringApplication
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getMBean(DefaultMBeanServerInterceptor.java:1073)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getAttribute(DefaultMBeanServerInterceptor.java:632)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.getAttribute(JmxMBeanServer.java:679)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1449)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.getAttribute(RMIConnectionImpl.java:639)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:598)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:844)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:721)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:720)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-12-20 17:28:45 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:45 DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@69f5f924: connectionId=rmi://192.168.1.24  15] closing.
+2024-12-20 17:28:45 DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@69f5f924: connectionId=rmi://192.168.1.24  15] closed.
+2024-12-20 17:28:45 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:45 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "javax.management.ObjectName", codebase = ""
+2024-12-20 17:28:45 DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.1.24  1, name=java.lang:type=OperatingSystem, attribute=ProcessCpuLoad
+2024-12-20 17:28:45 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:45 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "javax.management.ObjectName", codebase = ""
+2024-12-20 17:28:45 DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.1.24  1, name=java.lang:type=Memory, attribute=HeapMemoryUsage
+2024-12-20 17:28:45 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:45 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "javax.management.ObjectName", codebase = ""
+2024-12-20 17:28:45 DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.1.24  1, name=java.lang:type=Memory, attribute=HeapMemoryUsage
+2024-12-20 17:28:45 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 82
+2024-12-20 17:28:45 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:45 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:45 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:45 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:45 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:45 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:45 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:45 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@17b40f5f
+2024-12-20 17:28:45 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 84
+2024-12-20 17:28:45 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:45 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:45 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "javax.management.ObjectName", codebase = ""
+2024-12-20 17:28:45 DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.1.24  16, name=org.springframework.boot:type=Admin,name=SpringApplication, attribute=Ready
+2024-12-20 17:28:45 DEBUG sun.rmi.server.call - RMI TCP Connection(1)-192.168.1.24: [192.168.1.24] exception: 
+javax.management.InstanceNotFoundException: org.springframework.boot:type=Admin,name=SpringApplication
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getMBean(DefaultMBeanServerInterceptor.java:1073)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getAttribute(DefaultMBeanServerInterceptor.java:632)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.getAttribute(JmxMBeanServer.java:679)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1449)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.getAttribute(RMIConnectionImpl.java:639)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:598)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:844)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:721)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:720)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+2024-12-20 17:28:45 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:45 DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@5981168d: connectionId=rmi://192.168.1.24  16] closing.
+2024-12-20 17:28:45 DEBUG javax.management.remote.rmi - [javax.management.remote.rmi.RMIConnectionImpl@5981168d: connectionId=rmi://192.168.1.24  16] closed.
+2024-12-20 17:28:46 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 82
+2024-12-20 17:28:46 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:46 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "javax.management.ObjectName", codebase = ""
+2024-12-20 17:28:46 DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.1.24  1, name=java.lang:type=OperatingSystem, attribute=ProcessCpuLoad
+2024-12-20 17:28:46 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:46 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "javax.management.ObjectName", codebase = ""
+2024-12-20 17:28:46 DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.1.24  1, name=java.lang:type=Memory, attribute=HeapMemoryUsage
+2024-12-20 17:28:46 DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.1.24: (port 54127) op = 80
+2024-12-20 17:28:46 DEBUG sun.rmi.loader - RMI TCP Connection(1)-192.168.1.24: name = "javax.management.ObjectName", codebase = ""
+2024-12-20 17:28:46 DEBUG javax.management.remote.rmi - connectionId=rmi://192.168.1.24  1, name=java.lang:type=Memory, attribute=HeapMemoryUsage
+2024-12-20 17:28:47 DEBUG o.s.boot.devtools.restart.Restarter - Creating new Restarter for thread Thread[#1,main,5,main]
+2024-12-20 17:28:47 DEBUG o.s.boot.devtools.restart.Restarter - Immediately restarting application
+2024-12-20 17:28:47 DEBUG o.s.boot.devtools.restart.Restarter - Starting application org.aura.plateforme_iot.PlateformeIoTApplication with URLs [file:/C:/Users/YouCode/Desktop/Plateforme_IoT/target/classes/]
+2024-12-20 17:28:47 ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.boot.docker.compose.core.ProcessExitException: 'docker version --format {{.Client.Version}}' failed with exit code 1.
+
+Stdout:
+27.3.1
+
+
+Stderr:
+request returned Internal Server Error for API route and version http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.47/version, check if the server supports the requested API version
+
+	at org.springframework.boot.docker.compose.core.ProcessRunner.run(ProcessRunner.java:97)
+	at org.springframework.boot.docker.compose.core.ProcessRunner.run(ProcessRunner.java:75)
+	at org.springframework.boot.docker.compose.core.DockerCli$DockerCommands.getDockerCommand(DockerCli.java:142)
+	at org.springframework.boot.docker.compose.core.DockerCli$DockerCommands.<init>(DockerCli.java:136)
+	at org.springframework.boot.docker.compose.core.DockerCli.lambda$new$0(DockerCli.java:63)
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1228)
+	at org.springframework.boot.docker.compose.core.DockerCli.<init>(DockerCli.java:62)
+	at org.springframework.boot.docker.compose.core.DockerCompose.get(DockerCompose.java:145)
+	at org.springframework.boot.docker.compose.lifecycle.DockerComposeLifecycleManager.getDockerCompose(DockerComposeLifecycleManager.java:166)
+	at org.springframework.boot.docker.compose.lifecycle.DockerComposeLifecycleManager.start(DockerComposeLifecycleManager.java:114)
+	at org.springframework.boot.docker.compose.lifecycle.DockerComposeListener.onApplicationEvent(DockerComposeListener.java:53)
+	at org.springframework.boot.docker.compose.lifecycle.DockerComposeListener.onApplicationEvent(DockerComposeListener.java:35)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:156)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:138)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.contextLoaded(EventPublishingRunListener.java:98)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$contextLoaded$4(SpringApplicationRunListeners.java:72)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.contextLoaded(SpringApplicationRunListeners.java:72)
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:416)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at org.aura.plateforme_iot.PlateformeIoTApplication.main(PlateformeIoTApplication.java:10)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
