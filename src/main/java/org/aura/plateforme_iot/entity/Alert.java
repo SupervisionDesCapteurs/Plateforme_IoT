@@ -4,10 +4,11 @@ import lombok.Data;
 import org.aura.plateforme_iot.entity.Enums.Severity;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.data.mongodb.core.mapping.DocumentReference;
 
 import java.time.LocalDateTime;
 
-@Document(collation = "alerts")
+@Document(collection = "alerts")
 @Data
 public class Alert {
 
@@ -17,4 +18,7 @@ public class Alert {
     private Severity severity;
     private String message;
     private LocalDateTime dateTime;
+
+    @DocumentReference
+    private Device device;
 }

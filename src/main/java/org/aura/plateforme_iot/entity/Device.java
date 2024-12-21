@@ -1,5 +1,6 @@
 package org.aura.plateforme_iot.entity;
 
+import lombok.Builder;
 import lombok.Data;
 import org.aura.plateforme_iot.entity.Enums.DeviceStatus;
 import org.aura.plateforme_iot.entity.Enums.DeviceType;
@@ -12,6 +13,7 @@ import java.util.List;
 
 @Document(collection = "device")
 @Data
+@Builder
 public class Device {
     @Id
     private String id;

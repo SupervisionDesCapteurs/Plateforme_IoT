@@ -21,5 +21,3 @@ logging:
 server:
   error:
     include-stacktrace: never
-
-

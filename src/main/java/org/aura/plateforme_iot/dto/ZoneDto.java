@@ -10,7 +10,7 @@ import java.util.List;
 @Builder
 public class ZoneDto {
 
-    private int id;
+    private String id;
     @NotBlank(message = "Le nom de la zone ne peut pas être vide.")
     private String nom;
 
@@ -20,5 +20,6 @@ public class ZoneDto {
     @NotBlank(message = "La localisation de la zone est requise.")
     private String location;
 
-    private List<DeviceDto> devices;
+    // Only device IDs will be submitted during creation
+    private List<String> deviceIds;
 }

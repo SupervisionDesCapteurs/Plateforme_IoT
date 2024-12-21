@@ -1,6 +1,7 @@
 package org.aura.plateforme_iot.controller;
 
-import org.aura.plateforme_iot.dto.UserDto;
+import org.aura.plateforme_iot.dto.UserDto.UserDTO;
+import org.aura.plateforme_iot.dto.UserDto.UserResponseDTO;
 import org.aura.plateforme_iot.service.interfaceService.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -19,9 +20,9 @@ public class UserController {
 
     @GetMapping
     @PreAuthorize("hasRole('ADMIN')")
-    public ResponseEntity<List<UserDto>> getAllUsers() {
-        List<UserDto> users = userService.getAllUsers();
-        return ResponseEntity.ok(users);
+    public ResponseEntity<List<UserResponseDTO>> getAllUsers() {
+        List<UserResponseDTO> users = userService.getAllUsers();
+        return ResponseEntity.status(HttpStatus.OK).body(users);
     }
 
     @PutMapping("/{id}/roles")

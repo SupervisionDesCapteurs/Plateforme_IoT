@@ -1,4 +1,4 @@
-package org.aura.plateforme_iot.dto;
+package org.aura.plateforme_iot.dto.UserDto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
@@ -7,7 +7,7 @@ import lombok.Data;
 import java.util.List;
 
 @Data
-public class UserDto {
+public class UserDTO {
 
     private String id;
 
@@ -23,3 +23,4 @@ public class UserDto {
 
     private List<String> roles;
 }
+

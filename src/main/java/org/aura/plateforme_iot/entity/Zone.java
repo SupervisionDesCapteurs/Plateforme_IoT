@@ -8,7 +8,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import java.util.List;
 
 @Data
-@Document(collation = "zones")
+@Document(collection = "zones")
 public class Zone {
 
     @Id

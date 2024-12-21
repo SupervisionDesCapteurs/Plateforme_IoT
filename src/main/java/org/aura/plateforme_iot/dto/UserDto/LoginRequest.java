@@ -1,12 +1,9 @@
-package org.aura.plateforme_iot.dto;
+package org.aura.plateforme_iot.dto.UserDto;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
 
-@Getter
-@Setter
+@Data
 public class LoginRequest {
 
     @NotBlank(message = "Username is required")
