@@ -8,6 +8,7 @@ import org.springframework.data.domain.Pageable;
 public interface DeviceService {
     Page<DeviceDto> listAllDevices(Pageable pageable);
     DeviceDto addDevice(DeviceDto device);
+    Page<DeviceDto> listDevicesByZone(String zoneId,Pageable pageable);
 
 
 }

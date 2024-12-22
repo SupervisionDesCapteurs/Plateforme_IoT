@@ -27,10 +27,18 @@ public class DeviceController {
      Page<DeviceDto> deviceList = deviceService.listAllDevices(pageable);
      return ResponseEntity.ok(deviceList);
     }
+
+    @GetMapping("/user/devices/by-zone/{zoneId}")
+    public ResponseEntity<Page<DeviceDto>> getAllDevicesByZone(@PathVariable String zoneId,@PageableDefault(page = 0, size = 10) Pageable pageable) {
+        Page<DeviceDto> deviceListe = deviceService.listDevicesByZone(zoneId,pageable);
+        return ResponseEntity.ok(deviceListe);
+    }
     @PreAuthorize("hasAnyRole('ROLE_ADMIN')")
     @PostMapping("/admin/devices")
     public ResponseEntity<DeviceDto> createDevice(@RequestBody @Valid DeviceDto deviceDto) {
         DeviceDto deviceSaved = deviceService.addDevice(deviceDto);
         return ResponseEntity.status(201).body(deviceSaved);
     }
+
+
 }

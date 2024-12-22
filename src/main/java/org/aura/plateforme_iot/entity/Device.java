@@ -23,5 +23,7 @@ public class Device {
     private LocalDateTime lastCommunication;
     @DBRef
     private List<Measure> measureList;
+    @DBRef
+    private Zone zone;
 
 }
