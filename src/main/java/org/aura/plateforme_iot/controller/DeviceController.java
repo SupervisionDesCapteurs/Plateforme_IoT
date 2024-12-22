@@ -9,6 +9,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
@@ -19,14 +20,14 @@ import org.springframework.web.bind.annotation.*;
 public class DeviceController {
 
     private final DeviceService deviceService;
-
+    @PreAuthorize("hasAnyRole('ROLE_USER', 'ROLE_ADMIN')")
     @GetMapping("/user/devices")
     public ResponseEntity<Page<DeviceDto>> getAllDevices(
             @PageableDefault(page = 0, size = 10) Pageable pageable) {
      Page<DeviceDto> deviceList = deviceService.listAllDevices(pageable);
      return ResponseEntity.ok(deviceList);
     }
-
+    @PreAuthorize("hasAnyRole('ROLE_ADMIN')")
     @PostMapping("/admin/devices")
     public ResponseEntity<DeviceDto> createDevice(@RequestBody @Valid DeviceDto deviceDto) {
         DeviceDto deviceSaved = deviceService.addDevice(deviceDto);

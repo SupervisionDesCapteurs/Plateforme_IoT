@@ -36,31 +36,30 @@ public class AuthController {
         );
 
         CustomUserDetails userDetails = (CustomUserDetails) authentication.getPrincipal();
-        String token = jwtTokenProvider.generateToken(userDetails.getUsername());
+        List<String> roles = userDetails.getAuthorities().stream()
+                .map(authority -> authority.getAuthority().replace("ROLE_", ""))
+                .collect(Collectors.toList());
+
+        String token = jwtTokenProvider.generateToken(userDetails.getUsername(), roles);
 
         return ResponseEntity.ok(new AuthResponse(token, userDetails.getUsername(), userDetails.getAuthorities()));
     }
+
 
     @PostMapping("/register")
     public ResponseEntity<AuthResponse> register(@RequestBody UserDTO userDTO) {
         UserResponseDTO registeredUser = userService.register(userDTO);
 
-        String token = jwtTokenProvider.generateToken(registeredUser.getUsername());
+        List<String> roles = registeredUser.getRoles(); // Assuming roles are a list of strings
+        String token = jwtTokenProvider.generateToken(registeredUser.getUsername(), roles);
 
-        /**  Date expirationDate = Jwts.parserBuilder()
-         .setSigningKey(jwtTokenProvider.getKey())
-         .build()
-         .parseClaimsJws(token)
-         .getBody()
-         .getExpiration();
-         **/
-
-        List<SimpleGrantedAuthority> authorities = registeredUser.getRoles().stream()
-                .map(SimpleGrantedAuthority::new)
+        List<SimpleGrantedAuthority> authorities = roles.stream()
+                .map(role -> new SimpleGrantedAuthority("ROLE_" + role))
                 .collect(Collectors.toList());
 
         return ResponseEntity.ok(new AuthResponse(token, registeredUser.getUsername(), authorities));
     }
+
 
     @PostMapping("/logout")
     public ResponseEntity<?> logout(@RequestHeader("Authorization") String authorization) {

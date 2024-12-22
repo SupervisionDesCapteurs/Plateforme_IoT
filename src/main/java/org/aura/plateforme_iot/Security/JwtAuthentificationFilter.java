@@ -18,7 +18,7 @@ import java.io.IOException;
 @Component
 public class JwtAuthentificationFilter extends OncePerRequestFilter {
 
-    private final org.aura.plateforme_iot.Security.JwtTokenProvider tokenProvider;
+    private final JwtTokenProvider tokenProvider;
     private final UserDetailsService userDetailsService;
     private TokenBlacklistService tokenBlacklistService;
 

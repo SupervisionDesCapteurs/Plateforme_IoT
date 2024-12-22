@@ -10,6 +10,7 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -19,19 +20,21 @@ import java.util.List;
 public class MeasureController {
 
     private final MeasureService measureService;
-
+    @PreAuthorize("hasAnyRole('USER', 'ADMIN')")
     @GetMapping
     public ResponseEntity<List<MeasureDTO>> getAllMeasures() {
         List<MeasureDTO> measures = measureService.getAllMeasures();
         return ResponseEntity.ok(measures);
     }
 
+    @PreAuthorize("hasAnyRole('USER', 'ADMIN')")
     @PostMapping
     public ResponseEntity<MeasureDTO> saveMeasure(@RequestBody MeasureDTO measure) {
         MeasureDTO savedMeasure = measureService.saveMeasure(measure);
         return ResponseEntity.status(HttpStatus.CREATED).body(savedMeasure);
     }
 
+    @PreAuthorize("hasAnyRole('USER', 'ADMIN')")
     @GetMapping("/export")
     public ResponseEntity<String> exportMeasures() {
         String csvContent = measureService.exportMeasures();
@@ -41,7 +44,7 @@ public class MeasureController {
                 .body(csvContent);
     }
 
-
+    @PreAuthorize("hasAnyRole('USER', 'ADMIN')")
     @GetMapping("/by-device/{deviceId}")
     public ResponseEntity<Page<MeasureDTO>> getMeasuresByDevice(
             @PathVariable String deviceId,
